@@ -1,29 +1,3 @@
 # ISHAAN-SINGH
 password strength checker
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Strength Checker</title>
-    <link rel="stylesheet" href="style.css">
 
-</head>
-<body>
-    <div class="container" id="container" style = "background-image: url(download.jpeg);"
-    <div class="container">
-        <h1>Password Strength Checker</h1>
-        <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-
-            <label for="password">Password:</label> 
-            <input type="password" id="password" required>
-            <button id="check-btn">Check Password Strength</button>
-            <p id="strength"></p>
-        </form>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
